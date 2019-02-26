@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GifGetter.iml" filepath="$PROJECT_DIR$/GifGetter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" group="SharedLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonTest.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonTest.iml" group="SharedLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" group="SharedLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosTest.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosTest.iml" group="SharedLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/androidApp/androidApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" group="androidApp" />
+      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" group="androidApp" />
+    </modules>
+  </component>
+</project>

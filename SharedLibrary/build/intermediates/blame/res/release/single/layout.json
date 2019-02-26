@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_template_custom_big.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/2a9f449cabb3d3efa1d1bb5018b3565d/res/layout/notification_action.xml"
+    }
+]
