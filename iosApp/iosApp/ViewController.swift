@@ -1,26 +1,48 @@
 //
 //  ViewController.swift
-//  iosApp
+//  GifPOC
 //
-//  Created by jetbrains on 12/04/2018.
-//  Copyright © 2018 JetBrains. All rights reserved.
+//  Created by Ben Whitley on 2/15/19.
+//  Copyright © 2019 Ben Whitley. All rights reserved.
 //
 
 import UIKit
-import greeting
+import FLAnimatedImage
 
 class ViewController: UIViewController {
-
+    
+    var collectionView: UICollectionView?
+    var urls: [String] = []
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let product = Factory().create(config: ["user": "JetBrains"])
-        label.text = product.description
+        
+        setupCollectionView()
+        
+        GifRetriever().requestGifs { [weak self] gifs in
+            guard let self = self else { return }
+            self.urls = gifs
+            self.collectionView?.reloadData()
+        }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    func setupCollectionView() {
+        let layout = UICollectionViewFlowLayout.init()
+        layout.itemSize = view.bounds.size
+        
+        collectionView = UICollectionView(
+            frame: view.bounds,
+            collectionViewLayout: layout
+        )
+        
+        collectionView?.register(
+            CollectionViewCell.self,
+            forCellWithReuseIdentifier: "GifCell"
+        )
+        
+        collectionView?.dataSource = self
+        collectionView?.delegate = self
+        collectionView?.isPagingEnabled = true
+        if let cv = collectionView { view.addSubview(cv) }
     }
-    @IBOutlet weak var label: UILabel!
 }
-
