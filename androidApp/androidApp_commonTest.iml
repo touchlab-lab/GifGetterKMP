@@ -25,7 +25,7 @@
     <content url="file://$MODULE_DIR$/src/commonTest/resources" />
     <orderEntry type="jdk" jdkName="Kotlin SDK" jdkType="KotlinSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="androidApp_commonMain" />
+    <orderEntry type="module" module-name="androidApp_commonMain" scope="TEST" />
   </component>
   <component name="TestModuleProperties" production-module="androidApp_commonMain" />
 </module>

@@ -8,7 +8,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/SharedLibrary" />
+            <option value="$PROJECT_DIR$/GifLibrary" />
             <option value="$PROJECT_DIR$/androidApp" />
           </set>
         </option>

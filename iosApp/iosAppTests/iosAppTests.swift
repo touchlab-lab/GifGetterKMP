@@ -7,12 +7,12 @@
 //
 
 import XCTest
-import greeting
+import SharedLibrary
 
 class iosAppTests: XCTestCase {
     
     func testExample() {
-        assert(Greeting().greeting() == "Hello, iOS")
+
     }
     
 }

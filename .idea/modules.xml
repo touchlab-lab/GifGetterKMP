@@ -3,11 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GifGetter.iml" filepath="$PROJECT_DIR$/GifGetter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" group="SharedLibrary" />
-      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonTest.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonTest.iml" group="SharedLibrary" />
-      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" group="SharedLibrary" />
-      <module fileurl="file://$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosTest.iml" filepath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosTest.iml" group="SharedLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" group="GifLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" group="GifLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" group="GifLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" group="GifLibrary" />
       <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/androidApp/androidApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" group="androidApp" />
       <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" group="androidApp" />

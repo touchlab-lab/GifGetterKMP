@@ -1,0 +1,99 @@
+apply plugin: 'kotlinx-serialization'
+apply plugin: 'com.android.library'
+apply plugin: 'org.jetbrains.kotlin.multiplatform'
+
+group = 'org.giflibrary'
+version = '0.0.1'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        minSdkVersion 15
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+    }
+}
+
+dependencies {
+    // Specify Kotlin/JVM stdlib dependency.
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk7'
+
+    testImplementation 'junit:junit:4.12'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test'
+    testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+
+    androidTestImplementation 'junit:junit:4.12'
+    androidTestImplementation 'org.jetbrains.kotlin:kotlin-test'
+    androidTestImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+
+kotlin {
+    targets {
+        fromPreset(presets.android, 'androidLib')
+
+        def buildForDevice = project.findProperty("device")?.toBoolean() ?: false
+        def iosPreset = (buildForDevice) ? presets.iosArm64 : presets.iosX64
+        def iOSTarget = System.getenv('SDK_NAME')?.startsWith('iphoneos') \
+                            ? presets.iosArm64 : presets.iosX64
+
+        fromPreset(iosPreset, 'ios') {
+            binaries {
+                framework {
+                    // Disable bitcode embedding for the simulator build.
+                    if (!buildForDevice) {
+                        embedBitcode("disable")
+                    }
+                }
+            }
+        }
+
+        fromPreset(iOSTarget, 'ios') {
+            compilations.main.outputKinds('FRAMEWORK')
+        }
+    }
+
+    sourceSets {
+        commonMain {
+            dependencies {
+                implementation "io.ktor:ktor-client-json:$ktor_version"
+            }
+        }
+
+        androidLibMain {
+            dependencies {
+                implementation "io.ktor:ktor-client-json-jvm:$ktor_version"
+            }
+        }
+
+        iosMain {
+            dependencies {
+                implementation "io.ktor:ktor-client-ios:$ktor_version"
+                implementation "io.ktor:ktor-client-json-native:$ktor_version"
+            }
+        }
+    }
+}
+
+task copyFramework {
+    def buildType = project.findProperty("kotlin.build.type") ?: "DEBUG"
+    dependsOn "link${buildType.toLowerCase().capitalize()}FrameworkIos"
+
+    doLast {
+        def srcFile = kotlin.targets.ios.binaries.getFramework(buildType).outputFile
+        def targetDir = buildDir
+        copy {
+            from srcFile.parent
+            into targetDir
+            include 'GifLibrary.framework/**'
+            include 'GifLibrary.framework.dSYM'
+        }
+    }
+}
+
+tasks.build.dependsOn copyFramework
