@@ -1,4 +1,4 @@
-package org.greeting
+package org.sharedLibrary
 
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4

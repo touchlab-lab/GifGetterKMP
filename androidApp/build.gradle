@@ -9,7 +9,7 @@ plugins {
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "org.konan.multiplatform"
+        applicationId "org.touchlab.gifgetter"
         minSdkVersion 23
         targetSdkVersion 28
         versionCode 1

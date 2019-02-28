@@ -1,4 +1,4 @@
-package org.greeting
+package org.sharedLibrary
 
 import org.sharedLibrary.SharedSpeaker
 import kotlin.test.Test

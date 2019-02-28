@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-iosx64/0.1.4/4db827778cfa2c56e77976db5ffff13b6d859087/kotlinx-io.klib!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-io-iosx64/0.1.4/8afdea18e39fa95969576fbbdbfc83801999e7f/kotlinx-io-iosx64-0.1.4-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>

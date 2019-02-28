@@ -4,6 +4,8 @@
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-iosx64/1.1.2/a3fbde99b4e377c461cc1606486ffcd4ffa0d25b/ktor-utils.klib!/" />
     </CLASSES>
     <JAVADOC />
-    <SOURCES />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-iosx64/1.1.2/3d50340caf56b6805ac0fe6f5014f49e1d8f3970/ktor-utils-iosx64-1.1.2-sources.jar!/" />
+    </SOURCES>
   </library>
 </component>
