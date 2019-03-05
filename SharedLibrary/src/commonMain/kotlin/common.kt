@@ -9,13 +9,13 @@ import io.ktor.client.features.json.*
 import io.ktor.client.features.json.serializer.*
 import io.ktor.client.request.*
 import io.ktor.client.response.*
+import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.serialization.Serializable
 
-expect class Platform() {
-    val name: String
-}
+internal expect val ApplicationDispatcher: CoroutineDispatcher
+internal expect val UIDispatcher: CoroutineDispatcher
+internal expect fun test(): Unit
 
-class SharedSpeaker {
-    fun sharedGreeting(): String = "Hello, Android and iOS worlds!"
-    fun platformGreeting(): String = "Hello, ${Platform().name} world!"
-}
+//expect class GifsViewModel {
+//    fun getGifs(callback: (List<String>) -> Unit)
+//}

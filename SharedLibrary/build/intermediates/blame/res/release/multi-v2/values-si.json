@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/incremental/mergeReleaseResources/merged.dir/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/921b44da80f0543b0987d7dfbb56717e/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/benwhitley/Documents/Multiplatform/GifGetter/SharedLibrary/build/intermediates/res/merged/release/values-si/values-si.xml",
+            "map": [
+                {
+                    "source": "/Users/benwhitley/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/921b44da80f0543b0987d7dfbb56717e/res/values-si/values-si.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -2,7 +2,6 @@ package org.sharedLibrary
 
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4
-import org.sharedLibrary.SharedSpeaker
 import kotlin.test.Ignore
 import kotlin.test.Test
 import kotlin.test.assertEquals
@@ -15,6 +14,6 @@ class HelloWorldTestJavaHelper : SharedHelloWorldTest()
 open class HelloWorldLibraryTest {
     @Test
     fun testPlatformGreeting() {
-        assertEquals(SharedSpeaker().platformGreeting(), "Hello, Android world!")
+
     }
 }

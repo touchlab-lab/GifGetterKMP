@@ -5,21 +5,16 @@ import io.ktor.client.features.json.JsonFeature
 import io.ktor.client.features.json.serializer.KotlinxSerializer
 import io.ktor.client.request.HttpRequestBuilder
 import io.ktor.client.request.get
+import io.ktor.client.request.header
 import io.ktor.http.ContentType
 import io.ktor.http.contentType
 import io.ktor.http.takeFrom
 import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.Runnable
+import kotlinx.coroutines.launch
+import kotlinx.serialization.json.JSON
 import kotlinx.serialization.json.Json
-
-class GifsViewModel {
-    private val api = GiphyAPI()
-
-    suspend fun getGifURLS(): List<String> {
-        return api.getGifs().data.map {
-            it.images.original.url
-        }
-    }
-}
 
 class GiphyAPI {
 
@@ -33,9 +28,42 @@ class GiphyAPI {
         }
     }
 
-    suspend fun getGifs(): GifResult = client.get {
+    suspend fun getGifUrls(callback: (List<String>) -> Unit) {
+        getGifs {
+            val urls = it.data.map {
+                it.images.original.url
+            }
+            callback(urls)
+        }
+    }
+
+    suspend fun getGifs(callback: (GifResult) -> Unit) {
+
+        GlobalScope.apply {
+            launch(ApplicationDispatcher) {
+                println("inside async")
+//                val result: String = client.get {
+//                    url(addr.toString())
+//                    header("api-key", "dc6zaTOxFJmzC")
+//                }
+                val result: GifResult = callGiphyAPI()
+                println("result: $result")
+                UIDispatcher.dispatch(coroutineContext,
+                        object : Runnable {
+                            override fun run() {
+                                callback(result)
+                            }
+                        }
+                )
+            }
+        }
+//        var urls = getGifs().data.map {
+//            it.images.original.url
+//        }
+    }
+
+    suspend fun callGiphyAPI(): GifResult = client.get {
         apiUrl(path = "v1/gifs/trending?api_key=$apiKey&limit=25&rating=G")
-//        json()
     }
 
     private fun HttpRequestBuilder.json() {

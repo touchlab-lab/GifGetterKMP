@@ -1,13 +1,34 @@
 package org.sharedLibrary
 
-import kotlinx.cinterop.alloc
-import kotlinx.cinterop.memScoped
-import kotlinx.cinterop.ptr
-import kotlinx.cinterop.toKString
-import platform.posix.uname
-import platform.posix.utsname
+import kotlinx.coroutines.*
+import platform.darwin.dispatch_async
+import platform.darwin.dispatch_get_main_queue
+import platform.darwin.dispatch_queue_t
+import kotlin.coroutines.CoroutineContext
+import kotlin.native.concurrent.freeze
+import kotlinx.coroutines.*
 
-actual class Platform actual constructor() {
-    actual val name: String = "iOS"
+internal actual val ApplicationDispatcher: CoroutineDispatcher = NsQueueDispatcher(dispatch_get_main_queue())
+internal actual val UIDispatcher: CoroutineDispatcher = ApplicationDispatcher
+internal actual fun test() {}
+
+internal class NsQueueDispatcher(private val dispatchQueue: dispatch_queue_t) : CoroutineDispatcher() {
+    override fun dispatch(context: CoroutineContext, block: Runnable) {
+        dispatch_async(dispatchQueue.freeze()) {
+            block.run()
+        }
+    }
 }
+
+//@ExperimentalCoroutinesApi
+//actual class GifsViewModel {
+//    actual fun getGifs(callback: (List<String>) -> Unit) {
+//        activityScope.launch {
+//            val urls = async(Dispatchers.IO) {
+//                Log.d("EXAMPLE", "Calling api:" + Thread.currentThread().name)
+//                GiphyAPI().getGifURLS(callback)
+//            }.await()
+//            Log.d("SAMPLE", "Have result: " + urls + " : " + Thread.currentThread().name)
+//    }
+//}
 
