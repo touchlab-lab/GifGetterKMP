@@ -123,15 +123,18 @@ task copyFramework {
 
     doLast {
         def srcFile = kotlin.targets.ios.binaries.getFramework(buildType).outputFile
-        def targetDir = getProperty("configuration.build.dir")
+        def targetDir = buildDir
         copy {
             from srcFile.parent
             into targetDir
-            include 'greeting.framework/**'
-            include 'greeting.framework.dSYM'
+            include 'SharedLibrary.framework/**'
+            include 'SharedLibrary.framework.dSYM'
         }
     }
 }
+
+tasks.build.dependsOn copyFramework
+
 
 task iosTest {
     def device = project.findProperty("iosDevice")?.toString() ?: "iPhone 8"

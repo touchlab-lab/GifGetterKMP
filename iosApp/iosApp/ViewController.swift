@@ -7,14 +7,14 @@
 //
 
 import UIKit
-import greeting
+import SharedLibrary
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let product = Factory().create(config: ["user": "JetBrains"])
-        label.text = product.description
+//        let product = Factory().create(config: ["user": "JetBrains"])
+//        label.text = product.description
     }
 
     override func didReceiveMemoryWarning() {

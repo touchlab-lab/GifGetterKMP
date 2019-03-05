@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="org.sharedLibrary.HelloWorldLibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-05T17:33:05" hostname="touchlabs-MacBook-Pro-2.local" time="0.0">
+<testsuite name="org.sharedLibrary.HelloWorldLibraryTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-03-05T18:52:18" hostname="touchlabs-MacBook-Pro-2.local" time="0.001">
   <properties/>
-  <testcase name="testPlatformGreeting" classname="org.sharedLibrary.HelloWorldLibraryTest" time="0.0"/>
+  <testcase name="testPlatformGreeting" classname="org.sharedLibrary.HelloWorldLibraryTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

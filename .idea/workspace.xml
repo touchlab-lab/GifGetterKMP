@@ -16,9 +16,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6972c147-4098-42de-84e6-b1a196cdafae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/androidApp/src/main/res/layout/gif_list_item.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
@@ -29,144 +26,95 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_recyclerview_integration_4_9_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_recyclerview_integration_4_9_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/SharedLibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_commonMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/SharedLibrary_iosMain.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/debugFramework/SharedLibrary.framework.dSYM/Contents/Resources/DWARF/SharedLibrary" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/debugFramework/SharedLibrary.framework.dSYM/Contents/Resources/DWARF/SharedLibrary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/debugFramework/SharedLibrary.framework/SharedLibrary" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/debugFramework/SharedLibrary.framework/SharedLibrary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainDebugFramework/main.framework.dSYM/Contents/Resources/DWARF/main" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainDebugFramework/main.framework.dSYM/Contents/Resources/DWARF/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainDebugFramework/main.framework/main" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainDebugFramework/main.framework/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainReleaseFramework/main.framework/main" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/mainReleaseFramework/main.framework/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/releaseFramework/SharedLibrary.framework/SharedLibrary" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/releaseFramework/SharedLibrary.framework/SharedLibrary" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/testDebugExecutable/test.kexe" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/testDebugExecutable/test.kexe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/testDebugExecutable/test.kexe.dSYM/Contents/Resources/DWARF/test.kexe" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/bin/ios/testDebugExecutable/test.kexe.dSYM/Contents/Resources/DWARF/test.kexe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/classes/kotlin/ios/main/SharedLibrary.klib" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/classes/kotlin/ios/main/SharedLibrary.klib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/classes/kotlin/metadata/main/org/sharedLibrary/GiphyAPI.kotlin_metadata" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/classes/kotlin/metadata/main/org/sharedLibrary/GiphyAPI.kotlin_metadata" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/incremental/packageDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/debug/classes.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/debug/res.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/debug/res.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/intermediate-jars/release/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/packaged-classes/debug/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/packaged-classes/debug/classes.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/intermediates/packaged-classes/release/classes.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/intermediates/packaged-classes/release/classes.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/build-history.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/supertypes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/jvm/kotlin/supertypes.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/counters.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugKotlinAndroidLib/last-build.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/META-INF/SharedLibrary_debug.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/META-INF/SharedLibrary_debug.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/ApiError.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/ApiError.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data$$serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Data.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult$$serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifResult.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifsViewModel$getGifURLS$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GifsViewModel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$apiUrl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$apiUrl$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$client$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$client$1$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$client$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$getGifs$$inlined$get$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI$getGifs$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/GiphyAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images$$serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Images.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original$$serializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original$$serializer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original$Companion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Original.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/Platform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/debug/org/sharedLibrary/SharedSpeaker.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/androidLibMain/kotlin/android.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/androidLibMain/kotlin/android.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/androidLibTest/kotlin/HelloWorldTestJavaHelper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/androidLibTest/kotlin/HelloWorldTestJavaHelper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/Data.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/Data.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/GiphyAPI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/GiphyAPI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/common.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/common.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/commonTest/kotlin/SharedHelloWorldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/commonTest/kotlin/SharedHelloWorldTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SharedLibrary/src/iosMain/kotlin/ios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/src/iosMain/kotlin/ios.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/androidApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/androidApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/test/kotlin/HelloWorldTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/test/kotlin/HelloWorldTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugUnitTestKotlinAndroidLib/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugUnitTestKotlinAndroidLib/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugUnitTestKotlinAndroidLib/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileDebugUnitTestKotlinAndroidLib/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/id-to-file.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseKotlinAndroidLib/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseUnitTestKotlinAndroidLib/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseUnitTestKotlinAndroidLib/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseUnitTestKotlinAndroidLib/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/kotlin/compileReleaseUnitTestKotlinAndroidLib/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/libs/SharedLibrary-metadata-0.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/libs/SharedLibrary-metadata-0.0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/outputs/aar/SharedLibrary-debug.aar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/outputs/aar/SharedLibrary-debug.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/outputs/aar/SharedLibrary-release.aar" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/outputs/aar/SharedLibrary-release.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/lint-results.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/lint-results.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.HelloWorldLibraryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.HelloWorldLibraryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.HelloWorldTestJavaHelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.HelloWorldTestJavaHelper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.SharedHelloWorldTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/classes/org.sharedLibrary.SharedHelloWorldTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/packages/org.sharedLibrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testDebugUnitTest/packages/org.sharedLibrary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.HelloWorldLibraryTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.HelloWorldLibraryTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.HelloWorldTestJavaHelper.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.HelloWorldTestJavaHelper.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.SharedHelloWorldTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/classes/org.sharedLibrary.SharedHelloWorldTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/packages/org.sharedLibrary.html" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/reports/tests/testReleaseUnitTest/packages/org.sharedLibrary.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.HelloWorldLibraryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.HelloWorldLibraryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.HelloWorldTestJavaHelper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.HelloWorldTestJavaHelper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.SharedHelloWorldTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/TEST-org.sharedLibrary.SharedHelloWorldTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testDebugUnitTest/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.HelloWorldLibraryTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.HelloWorldLibraryTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.HelloWorldTestJavaHelper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.HelloWorldTestJavaHelper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.SharedHelloWorldTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/TEST-org.sharedLibrary.SharedHelloWorldTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/test-results/testReleaseUnitTest/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$apiUrl$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$apiUrl$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$client$1$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$client$1$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$getGifURLS$$inlined$apply$lambda$1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$getGifURLS$$inlined$apply$lambda$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$getGifURLS$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$getGifs$$inlined$get$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI$getGifs$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/SharedLibrary/build/tmp/kotlin-classes/release/org/sharedLibrary/GiphyAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/iosApp/iosApp/ViewController.swift" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/androidApp/.gradle/" />
     <ignored path="$PROJECT_DIR$/androidApp/build/" />
@@ -295,6 +243,7 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="8" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -304,41 +253,41 @@
           <entry key="project.open.time.29" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="gradle" value="59" />
+          <entry key="gradle" value="102" />
           <entry key="java" value="10" />
           <entry key="kt" value="1928" />
-          <entry key="xml" value="98" />
+          <entry key="xml" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Groovy" value="59" />
+          <entry key="Groovy" value="102" />
           <entry key="JAVA" value="10" />
           <entry key="Kotlin" value="1928" />
-          <entry key="XML" value="98" />
+          <entry key="XML" value="99" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="gradle" value="7" />
+          <entry key="gradle" value="10" />
           <entry key="iml" value="1" />
           <entry key="java" value="1" />
-          <entry key="kt" value="30" />
-          <entry key="xml" value="7" />
+          <entry key="kt" value="35" />
+          <entry key="xml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Groovy" value="7" />
+          <entry key="Groovy" value="10" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="1" />
-          <entry key="Kotlin" value="30" />
-          <entry key="XML" value="7" />
+          <entry key="Kotlin" value="35" />
+          <entry key="XML" value="8" />
         </counts>
       </usages-collector>
     </session>
@@ -357,20 +306,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/GiphyAPI.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-              <folding>
-                <element signature="e#27#428#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="255">
+              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SharedLibrary/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="509">
-              <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
+            <state relative-caret-position="435">
+              <caret line="130" column="37" lean-forward="true" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -378,7 +324,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="495">
               <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#32#259#0" expanded="true" />
@@ -390,7 +336,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="435">
               <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
@@ -405,11 +351,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="533">
-              <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -458,6 +413,7 @@
       <find>coroutine</find>
       <find>packforxcode</find>
       <find>google</find>
+      <find>depends</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -4036,15 +3992,16 @@
         <option value="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/common.kt" />
         <option value="$PROJECT_DIR$/SharedLibrary/src/androidLibMain/kotlin/android.kt" />
         <option value="$PROJECT_DIR$/SharedLibrary/src/iosMain/kotlin/ios.kt" />
-        <option value="$PROJECT_DIR$/SharedLibrary/build.gradle" />
         <option value="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/Data.kt" />
         <option value="$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/GiphyAPI.kt" />
         <option value="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" />
+        <option value="$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/SharedLibrary/build.gradle" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-116" />
+    <option name="x" value="-118" />
     <option name="y" value="-1057" />
     <option name="width" value="1920" />
     <option name="height" value="1057" />
@@ -4057,21 +4014,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <expand>
-            <path>
-              <item name="GifGetter" type="1abcf292:AndroidViewProjectNode" />
-              <item name="SharedLibrary" type="feadf853:AndroidModuleNode" />
-            </path>
-            <path>
-              <item name="GifGetter" type="1abcf292:AndroidViewProjectNode" />
-              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -4108,6 +4050,23 @@
             <path>
               <item name="GifGetter" type="b2602c69:ProjectViewProjectNode" />
               <item name="GifGetter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="androidApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GifGetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GifGetter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="androidApp" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="res" type="462c0819:PsiDirectoryNode" />
+              <item name="values" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GifGetter" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GifGetter" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="SharedLibrary" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
             <path>
@@ -4136,6 +4095,21 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="GifGetter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="SharedLibrary" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="GifGetter" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -4160,7 +4134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Android App.androidApp">
+  <component name="RunManager" selected="Gradle.GifGetter [copyFramework]">
     <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="HTML_FILE_NAME" />
@@ -4259,6 +4233,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="GifGetter [copyFramework]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="copyFramework" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method v="2" />
+    </configuration>
     <configuration name="GifGetter:SharedLibrary [build]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -4307,9 +4299,11 @@
       <item itemvalue="Android App.androidApp" />
       <item itemvalue="Gradle.GifGetter:SharedLibrary [build]" />
       <item itemvalue="Gradle.GifGetter:androidApp [installDebug]" />
+      <item itemvalue="Gradle.GifGetter [copyFramework]" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GifGetter [copyFramework]" />
         <item itemvalue="Gradle.GifGetter:androidApp [installDebug]" />
       </list>
     </recent_temporary>
@@ -4337,7 +4331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-116" y="-1057" width="1920" height="1057" extended-state="6" />
+    <frame x="-118" y="-1057" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14696486" />
@@ -4430,9 +4424,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/androidApp/build/generated/source/buildConfig/release/org/konan/multiplatform/BuildConfig.java" />
-    <entry file="file://$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/androidApp/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -4514,20 +4505,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/androidApp/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="855">
-          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SharedLibrary/src/androidLibMain/kotlin/android.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-          <folding>
-            <element signature="e#27#78#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4535,9 +4516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="16" column="35" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding>
-            <element signature="e#27#288#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4552,30 +4530,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#33#155#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharedLibrary/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="120" column="36" selection-start-line="120" selection-start-column="36" selection-end-line="120" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/Data.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
     </entry>
@@ -4588,17 +4542,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/GiphyAPI.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="31" column="17" lean-forward="true" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="e#27#428#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="255">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="495">
           <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#32#259#0" expanded="true" />
@@ -4606,10 +4557,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/androidApp/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharedLibrary/src/commonMain/kotlin/Data.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="533">
-          <caret line="66" column="4" lean-forward="true" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SharedLibrary/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="130" column="37" lean-forward="true" selection-start-line="130" selection-start-column="37" selection-end-line="130" selection-end-column="37" />
         </state>
       </provider>
     </entry>

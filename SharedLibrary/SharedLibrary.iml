@@ -147,6 +147,8 @@
       <sourceFolder url="file://$MODULE_DIR$/src/testRelease/kotlin" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/testRelease/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/androidLibTestRelease/resources" type="java-test-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/build/SharedLibrary.framework" />
+      <excludeFolder url="file://$MODULE_DIR$/build/SharedLibrary.framework.dSYM" />
       <excludeFolder url="file://$MODULE_DIR$/build/bin" />
       <excludeFolder url="file://$MODULE_DIR$/build/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/generated/not_namespaced_r_class_sources" />
