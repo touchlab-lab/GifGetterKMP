@@ -8,8 +8,7 @@ import kotlin.coroutines.CoroutineContext
 import kotlin.native.concurrent.freeze
 import kotlinx.coroutines.*
 
-internal actual val ApplicationDispatcher: CoroutineDispatcher = NsQueueDispatcher(dispatch_get_main_queue())
-internal actual val UIDispatcher: CoroutineDispatcher = ApplicationDispatcher
+internal actual val UIDispatcher: CoroutineDispatcher = NsQueueDispatcher(dispatch_get_main_queue())
 internal actual fun test() {}
 
 internal class NsQueueDispatcher(private val dispatchQueue: dispatch_queue_t) : CoroutineDispatcher() {

@@ -12,7 +12,6 @@ import io.ktor.client.response.*
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.serialization.Serializable
 
-internal expect val ApplicationDispatcher: CoroutineDispatcher
 internal expect val UIDispatcher: CoroutineDispatcher
 internal expect fun test(): Unit
 

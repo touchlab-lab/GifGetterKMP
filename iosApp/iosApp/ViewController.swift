@@ -8,6 +8,11 @@
 
 import UIKit
 import SharedLibrary
+import UIKit
+import Alamofire
+import SwiftyJSON
+import FLAnimatedImage
+
 
 class ViewController: UIViewController {
 

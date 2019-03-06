@@ -40,21 +40,21 @@ class GiphyAPI {
     suspend fun getGifs(callback: (GifResult) -> Unit) {
 
         GlobalScope.apply {
-            launch(ApplicationDispatcher) {
+            launch(UIDispatcher) {
                 println("inside async")
 //                val result: String = client.get {
 //                    url(addr.toString())
 //                    header("api-key", "dc6zaTOxFJmzC")
 //                }
                 val result: GifResult = callGiphyAPI()
-                println("result: $result")
-                UIDispatcher.dispatch(coroutineContext,
-                        object : Runnable {
-                            override fun run() {
-                                callback(result)
-                            }
-                        }
-                )
+//                println("result: $result")
+//                UIDispatcher.dispatch(coroutineContext,
+//                        object : Runnable {
+//                            override fun run() {
+                callback(result)
+//                            }
+//                        }
+//                )
             }
         }
 //        var urls = getGifs().data.map {

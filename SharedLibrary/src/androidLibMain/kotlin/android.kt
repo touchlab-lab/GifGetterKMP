@@ -3,7 +3,6 @@ package org.sharedLibrary
 import android.util.Log
 import kotlinx.coroutines.*
 
-internal actual val ApplicationDispatcher: CoroutineDispatcher = Dispatchers.Default
 internal actual val UIDispatcher: CoroutineDispatcher = Dispatchers.Main
 internal actual fun test() {}
 

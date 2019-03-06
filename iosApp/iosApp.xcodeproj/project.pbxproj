@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF151692421E5AFB8794723 /* Pods_iosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77C23A51BA35FDC256EFAF1A /* Pods_iosApp.framework */; };
 		45359D6D222F1F16007FEC33 /* SharedLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45359D6C222F1F16007FEC33 /* SharedLibrary.framework */; };
 		45359D6E222F1F16007FEC33 /* SharedLibrary.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 45359D6C222F1F16007FEC33 /* SharedLibrary.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F861D7E1207FA40F0085E80D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F861D7E0207FA40F0085E80D /* AppDelegate.swift */; };
@@ -43,6 +44,9 @@
 
 /* Begin PBXFileReference section */
 		45359D6C222F1F16007FEC33 /* SharedLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SharedLibrary.framework; path = ../SharedLibrary/build/SharedLibrary.framework; sourceTree = "<group>"; };
+		77C23A51BA35FDC256EFAF1A /* Pods_iosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5F0D7EA7CBEEEFA087549E8 /* Pods-iosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iosApp/Pods-iosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E2AAADA25F73D21521A53C /* Pods-iosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iosApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-iosApp/Pods-iosApp.release.xcconfig"; sourceTree = "<group>"; };
 		F861D7DD207FA40F0085E80D /* iosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F861D7E0207FA40F0085E80D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F861D7E2207FA40F0085E80D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EF151692421E5AFB8794723 /* Pods_iosApp.framework in Frameworks */,
 				45359D6D222F1F16007FEC33 /* SharedLibrary.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D44490AED643FAF83CBA6E76 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5F0D7EA7CBEEEFA087549E8 /* Pods-iosApp.debug.xcconfig */,
+				E6E2AAADA25F73D21521A53C /* Pods-iosApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F38F9628EB7C1430F95A3DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77C23A51BA35FDC256EFAF1A /* Pods_iosApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F861D7D4207FA40F0085E80D = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				F861D7F4207FA4100085E80D /* iosAppTests */,
 				F861D7DE207FA40F0085E80D /* Products */,
 				45359D6C222F1F16007FEC33 /* SharedLibrary.framework */,
+				D44490AED643FAF83CBA6E76 /* Pods */,
+				F38F9628EB7C1430F95A3DD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +146,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F861D7FA207FA4100085E80D /* Build configuration list for PBXNativeTarget "iosApp" */;
 			buildPhases = (
+				BAE72CA85B5828BBD5486B9F /* [CP] Check Pods Manifest.lock */,
 				45359D6B222F1D06007FEC33 /* ShellScript */,
 				F861D7D9207FA40F0085E80D /* Sources */,
 				F861D7DA207FA40F0085E80D /* Frameworks */,
 				F861D7DB207FA40F0085E80D /* Resources */,
 				F861D811207FA4200085E80D /* Embed Frameworks */,
+				0E23C574431A8A0E996E7F1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,7 +188,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					F861D7DC207FA40F0085E80D = {
 						CreatedOnToolsVersion = 9.3;
@@ -213,6 +239,34 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E23C574431A8A0E996E7F1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/FLAnimatedImage/FLAnimatedImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FLAnimatedImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		45359D6B222F1D06007FEC33 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -229,6 +283,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\ncd \"$SRCROOT/../\"\n./gradlew SharedLibrary:copyFramework \\\n-Pconfiguration.build.dir=\"$CONFIGURATION_BUILD_DIR\"          \\\n-Pkotlin.build.type=\"$KOTLIN_BUILD_TYPE\"                      \\\n-Pdevice=\"$KOTLIN_DEVICE\"\n";
+		};
+		BAE72CA85B5828BBD5486B9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -400,14 +476,25 @@
 		};
 		F861D7FB207FA4100085E80D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5F0D7EA7CBEEEFA087549E8 /* Pods-iosApp.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A27VZVWQE;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SharedLibrary/build";
-				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "$(SRCROOT)/../SharedLibrary/build";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SharedLibrary/build\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FLAnimatedImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				KOTLIN_BUILD_TYPE = DEBUG;
+				KOTLIN_DEVICE = "";
+				"KOTLIN_DEVICE[sdk=iphoneos*]" = true;
+				"KOTLIN_DEVICE[sdk=iphonesimulator*]" = false;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -423,13 +510,25 @@
 		};
 		F861D7FC207FA4100085E80D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E2AAADA25F73D21521A53C /* Pods-iosApp.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5A27VZVWQE;
 				ENABLE_BITCODE = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../SharedLibrary/build";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../SharedLibrary/build\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FLAnimatedImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SwiftyJSON\"",
+				);
 				INFOPLIST_FILE = iosApp/Info.plist;
+				KOTLIN_BUILD_TYPE = RELEASE;
+				KOTLIN_DEVICE = "";
+				"KOTLIN_DEVICE[sdk=iphoneos*]" = true;
+				"KOTLIN_DEVICE[sdk=iphonesimulator*]" = false;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
