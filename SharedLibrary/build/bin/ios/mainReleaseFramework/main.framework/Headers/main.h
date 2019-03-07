@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@class MainGifResult, MainData, MainGifResultCompanion, MainGifResult$serializer, MainKotlinArray, MainImages, MainDataCompanion, MainData$serializer, MainOriginal, MainImagesCompanion, MainImages$serializer, MainOriginalCompanion, MainOriginal$serializer, MainApiError, MainKotlinThrowable, MainGiphyAPI, MainKotlinx_serialization_runtime_nativeEnumDescriptor, MainKotlinx_serialization_runtime_nativeSerialKind, MainKotlinNothing, MainKotlinx_serialization_runtime_nativeUpdateMode, MainKotlinx_serialization_runtime_nativeSerialClassDescImpl, MainKotlinEnum;
+@class MainGifResult, MainData, MainGifResultCompanion, MainGifResult$serializer, MainKotlinArray, MainImages, MainDataCompanion, MainData$serializer, MainOriginal, MainImagesCompanion, MainImages$serializer, MainOriginalCompanion, MainOriginal$serializer, MainApiError, MainKotlinThrowable, MainGiphyAPI, MainKotlinUnit, MainKotlinx_serialization_runtime_nativeEnumDescriptor, MainKotlinx_serialization_runtime_nativeSerialKind, MainKotlinNothing, MainKotlinx_serialization_runtime_nativeUpdateMode, MainKotlinx_serialization_runtime_nativeSerialClassDescImpl, MainKotlinEnum;
 
 @protocol MainKotlinx_serialization_runtime_nativeKSerializer, MainKotlinx_serialization_runtime_nativeGeneratedSerializer, MainKotlinx_serialization_runtime_nativeSerializationStrategy, MainKotlinx_serialization_runtime_nativeEncoder, MainKotlinx_serialization_runtime_nativeSerialDescriptor, MainKotlinx_serialization_runtime_nativeDeserializationStrategy, MainKotlinx_serialization_runtime_nativeDecoder, MainKotlinIterator, MainKotlinx_serialization_runtime_nativeCompositeEncoder, MainKotlinx_serialization_runtime_nativeSerialContext, MainKotlinAnnotation, MainKotlinx_serialization_runtime_nativeCompositeDecoder, MainKotlinKClass, MainKotlinComparable, MainKotlinKDeclarationContainer, MainKotlinKAnnotatedElement, MainKotlinKClassifier;
 
@@ -311,6 +311,7 @@ __attribute__((swift_name("GiphyAPI")))
 @interface MainGiphyAPI : KotlinBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)getGifUrlsCallback:(MainKotlinUnit *(^)(NSArray<NSString *> *))callback __attribute__((swift_name("getGifUrls(callback:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -386,6 +387,14 @@ __attribute__((swift_name("Kotlinx_serialization_runtime_nativeDecoder")))
 - (id _Nullable)updateSerializableValueDeserializer:(id<MainKotlinx_serialization_runtime_nativeDeserializationStrategy>)deserializer old:(id _Nullable)old __attribute__((swift_name("updateSerializableValue(deserializer:old:)")));
 @property (readonly) id<MainKotlinx_serialization_runtime_nativeSerialContext> context;
 @property (readonly) MainKotlinx_serialization_runtime_nativeUpdateMode *updateMode;
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface MainKotlinUnit : KotlinBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))

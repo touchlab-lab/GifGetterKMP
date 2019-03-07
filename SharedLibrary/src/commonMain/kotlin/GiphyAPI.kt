@@ -28,7 +28,7 @@ class GiphyAPI {
         }
     }
 
-    suspend fun getGifUrls(callback: (List<String>) -> Unit) {
+    fun getGifUrls(callback: (List<String>) -> Unit) {
         getGifs {
             val urls = it.data.map {
                 it.images.original.url
@@ -37,7 +37,7 @@ class GiphyAPI {
         }
     }
 
-    suspend fun getGifs(callback: (GifResult) -> Unit) {
+    private fun getGifs(callback: (GifResult) -> Unit) {
 
         GlobalScope.apply {
             launch(UIDispatcher) {

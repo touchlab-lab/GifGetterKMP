@@ -1,6 +1,6 @@
 #import <Foundation/Foundation.h>
 
-@class SharedLibraryGifResult, SharedLibraryData, SharedLibraryGifResultCompanion, SharedLibraryGifResult$serializer, SharedLibraryKotlinArray, SharedLibraryImages, SharedLibraryDataCompanion, SharedLibraryData$serializer, SharedLibraryOriginal, SharedLibraryImagesCompanion, SharedLibraryImages$serializer, SharedLibraryOriginalCompanion, SharedLibraryOriginal$serializer, SharedLibraryApiError, SharedLibraryKotlinThrowable, SharedLibraryGiphyAPI, SharedLibraryKotlinx_serialization_runtime_nativeEnumDescriptor, SharedLibraryKotlinx_serialization_runtime_nativeSerialKind, SharedLibraryKotlinNothing, SharedLibraryKotlinx_serialization_runtime_nativeUpdateMode, SharedLibraryKotlinx_serialization_runtime_nativeSerialClassDescImpl, SharedLibraryKotlinEnum;
+@class SharedLibraryGifResult, SharedLibraryData, SharedLibraryGifResultCompanion, SharedLibraryGifResult$serializer, SharedLibraryKotlinArray, SharedLibraryImages, SharedLibraryDataCompanion, SharedLibraryData$serializer, SharedLibraryOriginal, SharedLibraryImagesCompanion, SharedLibraryImages$serializer, SharedLibraryOriginalCompanion, SharedLibraryOriginal$serializer, SharedLibraryApiError, SharedLibraryKotlinThrowable, SharedLibraryGiphyAPI, SharedLibraryKotlinUnit, SharedLibraryKotlinx_serialization_runtime_nativeEnumDescriptor, SharedLibraryKotlinx_serialization_runtime_nativeSerialKind, SharedLibraryKotlinNothing, SharedLibraryKotlinx_serialization_runtime_nativeUpdateMode, SharedLibraryKotlinx_serialization_runtime_nativeSerialClassDescImpl, SharedLibraryKotlinEnum;
 
 @protocol SharedLibraryKotlinx_serialization_runtime_nativeKSerializer, SharedLibraryKotlinx_serialization_runtime_nativeGeneratedSerializer, SharedLibraryKotlinx_serialization_runtime_nativeSerializationStrategy, SharedLibraryKotlinx_serialization_runtime_nativeEncoder, SharedLibraryKotlinx_serialization_runtime_nativeSerialDescriptor, SharedLibraryKotlinx_serialization_runtime_nativeDeserializationStrategy, SharedLibraryKotlinx_serialization_runtime_nativeDecoder, SharedLibraryKotlinIterator, SharedLibraryKotlinx_serialization_runtime_nativeCompositeEncoder, SharedLibraryKotlinx_serialization_runtime_nativeSerialContext, SharedLibraryKotlinAnnotation, SharedLibraryKotlinx_serialization_runtime_nativeCompositeDecoder, SharedLibraryKotlinKClass, SharedLibraryKotlinComparable, SharedLibraryKotlinKDeclarationContainer, SharedLibraryKotlinKAnnotatedElement, SharedLibraryKotlinKClassifier;
 
@@ -311,6 +311,7 @@ __attribute__((swift_name("GiphyAPI")))
 @interface SharedLibraryGiphyAPI : KotlinBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (void)getGifUrlsCallback:(SharedLibraryKotlinUnit *(^)(NSArray<NSString *> *))callback __attribute__((swift_name("getGifUrls(callback:)")));
 @end;
 
 __attribute__((objc_subclassing_restricted))
@@ -386,6 +387,14 @@ __attribute__((swift_name("Kotlinx_serialization_runtime_nativeDecoder")))
 - (id _Nullable)updateSerializableValueDeserializer:(id<SharedLibraryKotlinx_serialization_runtime_nativeDeserializationStrategy>)deserializer old:(id _Nullable)old __attribute__((swift_name("updateSerializableValue(deserializer:old:)")));
 @property (readonly) id<SharedLibraryKotlinx_serialization_runtime_nativeSerialContext> context;
 @property (readonly) SharedLibraryKotlinx_serialization_runtime_nativeUpdateMode *updateMode;
+@end;
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface SharedLibraryKotlinUnit : KotlinBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
 @end;
 
 __attribute__((swift_name("KotlinIterator")))
