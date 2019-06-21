@@ -56,6 +56,8 @@ kotlin {
         fromPreset(iOSTarget, 'ios') {
             compilations.main.outputKinds('FRAMEWORK')
         }
+
+        fromPreset(presets.js, 'js')
     }
 
     sourceSets {
@@ -75,6 +77,13 @@ kotlin {
             dependencies {
                 implementation "io.ktor:ktor-client-ios:$ktor_version"
                 implementation "io.ktor:ktor-client-json-native:$ktor_version"
+            }
+        }
+
+        jsMain {
+            dependencies {
+                implementation "io.ktor:ktor-client-js:$ktor_version"
+                implementation "io.ktor:ktor-client-json-js:$ktor_version"
             }
         }
     }
