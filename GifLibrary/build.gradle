@@ -57,7 +57,13 @@ kotlin {
             compilations.main.outputKinds('FRAMEWORK')
         }
 
-        fromPreset(presets.js, 'js')
+        fromPreset(presets.js, 'js') {
+            tasks.getByName(compilations.main.compileKotlinTaskName).kotlinOptions {
+                outputFile = "${project.buildDir.path}/jsApp/GifLibrary.js"
+                moduleKind = "amd"
+                sourceMap = true
+            }
+        }
     }
 
     sourceSets {
