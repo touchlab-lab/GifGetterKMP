@@ -88,6 +88,8 @@ kotlin {
 
         jsMain {
             dependencies {
+                kotlin("stdlib-js")
+                implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:0.11.0"
                 implementation "io.ktor:ktor-client-js:$ktor_version"
                 implementation "io.ktor:ktor-client-json-js:$ktor_version"
             }

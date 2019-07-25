@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import GiphyAPI from 'GifLibrary'
 
 const mehUrls = [
   "https://media1.giphy.com/media/9xijGdDIMovchalhxN/giphy.gif",
