@@ -59,9 +59,10 @@ kotlin {
 
         fromPreset(presets.js, 'js') {
             tasks.getByName(compilations.main.compileKotlinTaskName).kotlinOptions {
-                outputFile = "${project.buildDir.path}/jsApp/GifLibrary.js"
-                moduleKind = "amd"
+                outputFile = "${rootProject.buildDir}/npm/${project.name}.js"
+                moduleKind = "commonjs"
                 sourceMap = true
+                metaInfo = true
             }
         }
     }

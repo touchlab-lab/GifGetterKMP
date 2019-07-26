@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
-import GiphyAPI from 'GifLibrary'
+import { org } from 'GifLibrary'
 
 const mehUrls = [
   "https://media1.giphy.com/media/9xijGdDIMovchalhxN/giphy.gif",
@@ -39,12 +39,13 @@ class App extends Component {
   };
 
   requestGifs = closure => {
-    closure(mehUrls)
+    var giphyAPI = new org.gifLibrary.GiphyAPI()
+    giphyAPI.getGifUrls_gfpoua$(closure)
   };
 
   componentWillMount() {
     this.requestGifs( gifs => {
-      this.setState({urls: gifs})
+      this.setState({urls: gifs.toArray()})
     })
   }
 
