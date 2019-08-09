@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "babel-loader": "^8.0.6",
     "bootstrap": "^4.3.1",
     "ktor-client-core-js": "^1.0.0",
     "react": "^16.8.6",
