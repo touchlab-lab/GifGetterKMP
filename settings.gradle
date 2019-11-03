@@ -2,3 +2,4 @@ enableFeaturePreview('GRADLE_METADATA')
 
 include ':GifLibrary'
 include ':androidApp'
+include ':jsApp'

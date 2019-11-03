@@ -1,0 +1,27 @@
+apply plugin: "kotlin-platform-js"
+apply plugin: 'kotlinx-serialization'
+apply plugin: "com.moowork.node"
+apply plugin: "com.crowdproj.plugins.jar2npm"
+
+node {
+  download = false
+  workDir = file("${project.buildDir}/node")
+  npmWorkDir = file("${project.buildDir}/node")
+  yarnWorkDir = file("${project.buildDir}/node")
+  nodeModulesDir = file("${project.projectDir}")
+}
+
+compileKotlin2Js {
+  kotlinOptions {
+    metaInfo = true
+    outputFile = "${project.buildDir.path}/js/foobar.js"
+    sourceMap = true
+    sourceMapEmbedSources = "always"
+    moduleKind = "commonjs"
+    main = "call"
+  }
+}
+
+dependencies {
+  implementation(project(":GifLibrary"))
+}

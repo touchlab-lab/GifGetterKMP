@@ -56,6 +56,15 @@ kotlin {
         fromPreset(iOSTarget, 'ios') {
             compilations.main.outputKinds('FRAMEWORK')
         }
+
+        fromPreset(presets.js, 'js') {
+            tasks.getByName(compilations.main.compileKotlinTaskName).kotlinOptions {
+                outputFile = "${rootProject.buildDir}/npm/${project.name}.js"
+                moduleKind = "commonjs"
+                sourceMap = true
+                metaInfo = true
+            }
+        }
     }
 
     sourceSets {
@@ -75,6 +84,15 @@ kotlin {
             dependencies {
                 implementation "io.ktor:ktor-client-ios:$ktor_version"
                 implementation "io.ktor:ktor-client-json-native:$ktor_version"
+            }
+        }
+
+        jsMain {
+            dependencies {
+                kotlin("stdlib-js")
+                implementation "org.jetbrains.kotlinx:kotlinx-serialization-runtime-js:0.11.0"
+                implementation "io.ktor:ktor-client-js:$ktor_version"
+                implementation "io.ktor:ktor-client-json-js:$ktor_version"
             }
         }
     }
