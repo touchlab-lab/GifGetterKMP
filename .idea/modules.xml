@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/GifGetterKMP.iml" filepath="$PROJECT_DIR$/GifGetterKMP.iml" group="GifGetterKMP" />
-      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" group="GifGetterKMP/GifLibrary" />
+      <module fileurl="file://$PROJECT_DIR$/GifGetter KMP.iml" filepath="$PROJECT_DIR$/GifGetter KMP.iml" group="GifGetter KMP" />
+      <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" group="GifGetter KMP/GifLibrary" />
       <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" group="GifLibrary" />
       <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" group="GifLibrary" />
       <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" group="GifLibrary" />
       <module fileurl="file://$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" filepath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" group="GifLibrary" />
-      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/androidApp/androidApp.iml" group="GifGetterKMP/androidApp" />
-      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonMain.iml" group="androidApp" />
-      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" filepath="$PROJECT_DIR$/androidApp/androidApp_commonTest.iml" group="androidApp" />
+      <module fileurl="file://$PROJECT_DIR$/androidApp/androidApp.iml" filepath="$PROJECT_DIR$/androidApp/androidApp.iml" group="GifGetter KMP/androidApp" />
+      <module fileurl="file://$PROJECT_DIR$/buildSrc/buildSrc.iml" filepath="$PROJECT_DIR$/buildSrc/buildSrc.iml" group="GifGetter KMP/buildSrc" />
     </modules>
   </component>
 </project>
