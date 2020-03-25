@@ -48,34 +48,7 @@ dependencies {
 	implementation(Deps.constraintlayout)
 	implementation(Deps.Coroutines.jdk)
 	implementation(Deps.Coroutines.android)
-	implementation("com.github.bumptech.glide:glide:4.9.0") // TODO: check for update
-    annotationProcessor("com.github.bumptech.glide:compiler:4.9.0")
+	implementation(Deps.glide) // TODO: check for update
+    annotationProcessor(Deps.glide)
     testImplementation(Deps.junit)
-
-
-
-//    implementation fileTree(dir: "libs", include: ["*.jar"])
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib"
-//    implementation(project(":GifLibrary"))
-//
-//    implementation "com.android.support:appcompat-v7:28.0.0"
-//
-//    testImplementation "org.jetbrains.kotlin:kotlin-test"
-//    testImplementation "junit:junit:4.12"
-//
-//    androidTestImplementation "junit:junit:4.12"
-//    androidTestImplementation "com.android.support.test:runner:1.0.2"
-//    androidTestImplementation "com.android.support.test.espresso:espresso-core:3.0.2"
-//
-//    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-//    implementation "io.ktor:ktor-client-android:$ktor_version"
-//    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:$kotlinx_coroutines_version"
-//
-//    implementation "com.android.support:recyclerview-v7:28.0.0"
-//    implementation "com.github.bumptech.glide:glide:4.9.0"
-//    annotationProcessor "com.github.bumptech.glide:compiler:4.9.0"
-//    implementation ("com.github.bumptech.glide:recyclerview-integration:4.9.0") {
-//        // Excludes the support library because it"s already included by Glide.
-//        transitive = false
-//    }
 }

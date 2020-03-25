@@ -83,22 +83,3 @@ kotlin {
 		target = "iosApp"
 	}
 }
-
-//task copyFramework {
-//    def buildType = project.findProperty("kotlin.build.type") ?: "DEBUG"
-//	def framework = kotlin.targets.ios.binaries.getFramework("GifLibrary", buildType)
-//	dependsOn(framework.linkTask)
-//
-//    doLast {
-//        def srcFile = framework.outputFile
-//        def targetDir = buildDir
-//        copy {
-//            from srcFile.parent
-//            into targetDir
-//            include 'GifLibrary.framework/**'
-//            include 'GifLibrary.framework.dSYM'
-//        }
-//    }
-//}
-//
-//tasks.build.dependsOn copyFramework

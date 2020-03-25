@@ -5,6 +5,9 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
@@ -14,18 +17,10 @@
     <list default="true" id="6972c147-4098-42de-84e6-b1a196cdafae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/androidApp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/androidApp.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buildSrc/src/main/java/Dependencies.kt" beforeDir="false" afterPath="$PROJECT_DIR$/buildSrc/src/main/java/Dependencies.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +93,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.GifGetterKMP [copyFramework]">
+  <component name="RunManager" selected="Android App.androidApp">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -272,5 +267,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-function">
+          <url>file://$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt</url>
+          <line>14</line>
+          <properties class="org.touchlab.gifgetter.MainActivity" method="onCreate" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
