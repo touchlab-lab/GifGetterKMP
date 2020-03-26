@@ -16,13 +16,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6972c147-4098-42de-84e6-b1a196cdafae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/shared/src/iosMain/kotlin/co/touchlab/gifgetter/ios.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/androidApp/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_commonTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosMain.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/GifLibrary_iosTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/shared/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/androidLibMain/kotlin/platform/android.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/commonMain/kotlin/Data.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/commonMain/kotlin/GiphyAPI.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/commonMain/kotlin/platform/common.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/iosMain/kotlin/platform/ios.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GifLibrary/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shared/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/androidApp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/GifAdapter.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/layout/gif_list_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/gif_list_item.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/androidApp/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/FLAnimatedImage" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/FLAnimatedImage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/Headers/FLAnimatedImage-umbrella.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/Headers/FLAnimatedImage.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/Headers/FLAnimatedImage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/Headers/FLAnimatedImageView.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/FLAnimatedImage.framework/Modules/module.modulemap" beforeDir="false" afterPath="$PROJECT_DIR$/ios/FLAnimatedImage.framework/Modules/module.modulemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.xcworkspace/contents.xcworkspacedata" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/benwhitley.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.xcworkspace/xcuserdata/benwhitley.xcuserdatad/UserInterfaceState.xcuserstate" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/project.xcworkspace/xcuserdata/benwhitley.xcuserdatad/WorkspaceSettings.xcsettings" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/project.xcworkspace/xcuserdata/benwhitley.xcuserdatad/WorkspaceSettings.xcsettings" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/xcuserdata/benwhitley.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/xcuserdata/benwhitley.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp.xcodeproj/xcuserdata/benwhitley.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp.xcodeproj/xcuserdata/benwhitley.xcuserdatad/xcschemes/xcschememanagement.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/AppDelegate.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/AppDelegate.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/Assets.xcassets/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/Assets.xcassets/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/Base.lproj/LaunchScreen.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/Base.lproj/LaunchScreen.storyboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/CollectionViewCell.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/CollectionViewCell.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/Exts.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/Exts.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/GifRetriever.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/GifRetriever.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/ViewController.Exts.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/ViewController.Exts.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosApp/ViewController.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosApp/ViewController.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosAppTests/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosAppTests/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/iosApp/iosAppTests/iosAppTests.swift" beforeDir="false" afterPath="$PROJECT_DIR$/ios/iosAppTests/iosAppTests.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +198,7 @@
       </method>
     </configuration>
     <configuration name="androidApp" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
-      <module name="androidApp" />
+      <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
       <option name="DEPLOY_AS_INSTANT" value="false" />
@@ -312,9 +364,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="kotlin-function">
-          <url>file://$PROJECT_DIR$/androidApp/src/main/kotlin/MainActivity.kt</url>
+          <url>file://$PROJECT_DIR$/app/src/main/kotlin/MainActivity.kt</url>
           <line>14</line>
-          <properties class="org.touchlab.gifgetter.MainActivity" method="onCreate" />
+          <properties class="org.touchlab.gifgetter.MainActivity" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

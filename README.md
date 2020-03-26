@@ -11,19 +11,19 @@ The [swift tests](iosApp/iosAppTests/iosAppTests.swift) also can be executed fro
 To compile a framework for ios simulator from the command line execute:
 
 ```
-  > ./gradlew :GifLibrary:build
+  > ./gradlew :shared:build
 ```
 
 To compile the framework for a device use the `device` project property:
 
 ```
-  > ./gradlew :GifLibrary:build -Pdevice=true
+  > ./gradlew :shared:build -Pdevice=true
 ```
 
 By default the `iPhone 8` simulator is used. One can change this setting using the `iosDevice` project property:
 
 ```
-  > ./gradlew :GifLibrary:iosTest -PiosDevice='iPhone 7'
+  > ./gradlew :shared:iosTest -PiosDevice='iPhone 7'
 ```
 
 
