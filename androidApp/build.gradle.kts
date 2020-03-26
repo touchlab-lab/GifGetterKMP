@@ -48,7 +48,6 @@ dependencies {
 	implementation(Deps.constraintlayout)
 	implementation(Deps.Coroutines.jdk)
 	implementation(Deps.Coroutines.android)
-	implementation(Deps.koinCore)
 	implementation(Deps.glide)
     annotationProcessor(Deps.glide)
     testImplementation(Deps.junit)
