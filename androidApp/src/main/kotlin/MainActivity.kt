@@ -54,5 +54,6 @@ class MainActivity : AppCompatActivity() {
             "https://media3.giphy.com/media/l0MYJ4f8pI6CuZM2c/giphy.gif",
             "https://media2.giphy.com/media/3ohze0GfYKBzqX6g5a/giphy.gif",
             "https://media0.giphy.com/media/tHQck4uGgJt72/giphy.gif",
-            "https://media2.giphy.com/media/2d400VBPJbxaU/giphy.gif")
+            "https://media2.giphy.com/media/2d400VBPJbxaU/giphy.gif"
+	)
 }

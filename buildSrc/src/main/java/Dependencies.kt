@@ -14,6 +14,7 @@ object Versions {
     val ktor = 					"1.2.6"
     val coroutines = 			"1.3.3-native-mt"
     val xcodesync = 			"0.2"
+	val koin = 					"3.0.0-alpha-8"
 	val glide = 				"4.11.0"
 
 }
@@ -26,6 +27,7 @@ object Deps {
     val android_gradle_plugin = "com.android.tools.build:gradle:${Versions.android_gradle_plugin}"
     val junit = 				"junit:junit:${Versions.junit}"
     val xcodesync = 			"co.touchlab:kotlinxcodesync:${Versions.xcodesync}"
+	val koinCore = 				"org.koin:koin-core:${Versions.koin}"
 	val glide =					"com.github.bumptech.glide:glide:${Versions.glide}"
 
     object Coroutines {

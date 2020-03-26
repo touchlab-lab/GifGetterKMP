@@ -48,7 +48,8 @@ dependencies {
 	implementation(Deps.constraintlayout)
 	implementation(Deps.Coroutines.jdk)
 	implementation(Deps.Coroutines.android)
-	implementation(Deps.glide) // TODO: check for update
+	implementation(Deps.koinCore)
+	implementation(Deps.glide)
     annotationProcessor(Deps.glide)
     testImplementation(Deps.junit)
 }
