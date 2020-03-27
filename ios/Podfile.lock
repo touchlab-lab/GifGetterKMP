@@ -1,0 +1,23 @@
+PODS:
+  - FLAnimatedImage (1.0.12)
+  - shared (1.0)
+
+DEPENDENCIES:
+  - FLAnimatedImage
+  - shared (from `../shared/`)
+
+SPEC REPOS:
+  trunk:
+    - FLAnimatedImage
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared/"
+
+SPEC CHECKSUMS:
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  shared: ef22f367d592e06134333d62988b9183e3774034
+
+PODFILE CHECKSUM: 47b5c34fbc949010e6fe2ff811369e1484150c48
+
+COCOAPODS: 1.8.4

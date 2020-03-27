@@ -1,0 +1,10 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+install! 'cocoapods', :deterministic_uuids => false
+
+target 'GifGetter' do
+	pod 'shared', :path => '../shared/'
+	pod 'FLAnimatedImage'
+end

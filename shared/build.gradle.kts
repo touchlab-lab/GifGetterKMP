@@ -23,9 +23,9 @@ kotlin {
 	android()
 	//Revert to just ios() when gradle plugin can properly resolve it
 	val onPhone = System.getenv("SDK_NAME")?.startsWith("iphoneos")?:false
-	if(onPhone){
+	if (onPhone) {
 		iosArm64("ios")
-	}else{
+	} else {
 		iosX64("ios")
 	}
 	targets.getByName<KotlinNativeTarget>("ios").compilations["main"].kotlinOptions.freeCompilerArgs += "-Xobjc-generics"
@@ -63,7 +63,7 @@ kotlin {
 	}
 
 	xcodeSync {
-		projectPath = "../iosApp/iosApp.xcodeproj"
-		target = "iosApp"
+		projectPath = "../ios/GifGetter.xcodeproj"
+		target = "GifGetter"
 	}
 }
